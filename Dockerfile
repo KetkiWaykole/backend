@@ -10,4 +10,4 @@ COPY . .
 # Expose the port your backend runs on
 EXPOSE 5000
 # Start the app
-CMD ["npm", "start"] || ["npm","run","dev"]
+CMD ["npm", "start"]
